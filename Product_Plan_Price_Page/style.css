@@ -1,0 +1,119 @@
+body{
+    background-color: #f4f2fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 40px;   
+}
+
+.divi{
+    background-color: #ffffff;
+    height:320px;
+    width: 12%;
+    border-radius: 10px;  
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    text-align: left;
+    padding: 60px;
+    font-family: Arial, sans-serif;
+    color:#2c3e50;
+
+}
+.abc{
+    height: 330px;
+    background-color: #202842;
+
+    width: 12%;
+    border-radius: 10px;  
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    text-align: left;
+    padding: 60px;
+    font-family: Arial, sans-serif;
+
+    color: white;
+}
+
+
+
+h2{
+    margin: 0;
+    font-size: 2em;
+    /* color: #2c3e50; */
+   
+}
+.subtitle{
+    /* color: #7f8c8d; */
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.price{
+    font-size: 2.5em;
+    /* color: #2c3e50; */
+    margin: 10px 0;
+    margin-top: 1px;
+}
+
+
+.ul-tag {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    /* color: #2c3e50; */
+    text-align: left;
+
+    margin-top: 5px;
+}
+
+.ul-tag li {
+    margin-bottom: 10px;
+}
+
+.ul-tag li:before {
+    content: "✔";
+    /* color: #2c3e50; */
+    margin-right: 10px;
+}
+
+
+.button{
+    color: white;
+    background-color: #202842;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+
+    margin-top: 1px;
+    margin-left: 10%;
+}
+button:hover {
+    background-color: #34495e;
+}
+
+.abcbutton{
+    color: #202842;
+    background-color: white
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+
+    margin-top: 1px;
+    margin-left: 10%;
+}
